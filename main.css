@@ -1,0 +1,173 @@
+.row {
+    background: #DBC3B1;
+    color: black;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position:relative;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    display: inline;
+    border-right: 1px solid #bbb;
+    float: left;
+}
+  
+li:last-child {
+    border-right: none;
+}
+  
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #B1947E;
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+li a:hover {
+    background-color: #59371F;
+    color: #B1947E;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 70px;
+    padding-top: 20px;
+    background-color: #DBC3B1;
+    background-image: url(Kuvat/taustauusi.png);
+    color:black;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.border {
+    font-family: Snell Roundhand, cursive;
+    font-size: x-large;
+}
+
+#yläpalkki {
+    background-color: #B1947E;
+    opacity: 90%;
+    padding: 20px;
+    margin: 5px;
+    float: left;
+    width: 100%;
+}
+
+#pääotsikko {
+    text-align: center;
+    font-size: 35px;
+    color: black;
+    height: auto;
+}
+
+#ompeluotsikko {
+    text-align: center;
+    font-size: 2em;
+}
+
+#käsityöotsikko {
+    text-align: center;
+}
+
+#ompelu{
+    width: 100%;
+    padding: 4%;
+    margin: 2%%;
+}
+
+#button {
+    background-color:#59371F;
+    color: white;
+    margin-left: 44%;
+}
+
+.progressotsikko {
+    text-align: center;
+    font-size: 25px;
+}
+
+.ompelu {
+    padding: 20px;
+    margin: 20px;
+    float: right;
+    width: 50%;
+    background: #DBC3B1;
+    opacity: 90%;
+    color: black;
+}
+
+#minusta{
+    float: right;
+    margin: 4%;
+    width: 60%;
+    color: black;
+}
+
+.card {
+    background-color: #DBC3B1;
+    float: left;
+    padding: 2%;
+    margin: 4%;
+    width: 30%;
+}
+
+#yhteystiedot {
+    float: left;
+    padding: 5em;
+    margin-left: 10em;
+    margin-top: 6em;
+    opacity: 90%;
+    color: black;
+}
+
+.form-group {
+    opacity: 90%;
+    padding: 5em;
+    margin-top: 5em;
+    margin-right: 10em;
+    float: right;
+    border: solid 1px #59371F;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #B1947E;
+    color: black;
+    text-align: center;
+}
+
+a:link {
+    color: black;
+}
+a:visited {
+    color: black;
+}
+a:hover {
+    color: #59371F;
+}
+@media (max-width: 600px) {
+    nav, article {
+      width: 100%;
+      height: auto;
+    }
+  }
